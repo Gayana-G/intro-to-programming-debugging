@@ -24,34 +24,34 @@ There are **at least 8 bugs** in this assignment, do your best to track down and
 
 Below is a list of requirements explaining what the application should do:
 
-- [ ] No errors in the browser console
+- [X] No errors in the browser console
 
 > _**Note:** keep the console open as you play the game so that you can see the randomly generated "target number"_
 
-- [ ] At the start, the "reset" button and all of the "messages" should be hidden
+- [X] At the start, the "reset" button and all of the "messages" should be hidden
 
-- [ ] You should be able to type a number into the input field and click "Submit Guess" to submit the form
+- [X] You should be able to type a number into the input field and click "Submit Guess" to submit the form
 
-- [ ] When the form is submitted, you should see the following:
+- [X] When the form is submitted, you should see the following:
 
   - [ ] A message displaying the number that was entered
   - [ ] A message displaying how many tries you have left (starts at 5 and decrements by 1)
   - [ ] A message describing the guess (too low, too high, etc.)
   - [ ] A "reset" button that restarts the game
 
-- [ ] If the guessed number is BELOW the target, the message should say "too low"
+- [X] If the guessed number is BELOW the target, the message should say "too low"
 
-- [ ] If the guessed number is ABOVE the target, the message should say "too high"
+- [X] If the guessed number is ABOVE the target, the message should say "too high"
 
-- [ ] If the guessed number is the SAME as the target, then:
+- [X] If the guessed number is the SAME as the target, then:
   - [ ] The input field and "Submit Guess" button should be disabled
   - [ ] The message should say "guessed correctly"
 
-- [ ] If the guessed number is not the same AND all 5 tries have been used, then:
-  - [ ] The input field and "Submit Guess" button should be disabled
-  - [ ] The message should say "0 guesses remaining"
+- [X] If the guessed number is not the same AND all 5 tries have been used, then:
+  - [X] The input field and "Submit Guess" button should be disabled
+  - [X] The message should say "0 guesses remaining"
 
-- [ ] When you click the "reset" button, the form should return to its initial state (not disabled)
+- [X] When you click the "reset" button, the form should return to its initial state (not disabled)
 
 ### Stretch Goals:
 
@@ -59,11 +59,11 @@ These items are not necessarily bugs in the code, but rather, missing features t
 
 (Optional) Complete the following:
 
-- [ ] You should not be able to submit a guessed number lower than 1
+- [X] You should not be able to submit a guessed number lower than 1
 
-- [ ] You should not be able to submit a guessed number higher than 99
+- [X] You should not be able to submit a guessed number higher than 99
 
-- [ ] If there is only one guess left, it should say "guess" (singular) instead of "guesses" (plural)
+- [X] If there is only one guess left, it should say "guess" (singular) instead of "guesses" (plural)
 
 ### Backup to the cloud
 Once you've found as many bugs as you can (and changed the code to fix them) follow the below instructions to push a copy from your local machine like you did at the end of last assignment. Make sure your code gets copied to GitHub by adding changes to staging, committing the staged changes, and pushing them from your local machine to GitHub:
